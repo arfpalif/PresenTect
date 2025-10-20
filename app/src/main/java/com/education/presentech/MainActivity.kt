@@ -93,6 +93,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 }
             }
         }
+        Box(
+            modifier = Modifier
+        ){}
     }
 
 }
